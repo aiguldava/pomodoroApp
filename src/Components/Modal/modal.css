@@ -1,0 +1,77 @@
+.modal {
+  width: 480px;
+  height: 519px;
+  margin-left: 150px;
+  border: 1px solid;
+  border: none;
+  background-color: white;
+}
+.mdlHead {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #bcbcbc;
+  text-align: center;
+  padding-top: 9px;
+}
+hr {
+  width: 400px;
+  border: 1px solid #d6d6d6;
+  margin-top: 30px;
+}
+span {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 15px;
+  color: #000000;
+  margin-right: 254px;
+}
+.mdlBlock1 {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+.mdlBtn {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  margin-left: 45px;
+}
+input {
+  width: 61px;
+  height: 37px;
+  background: #efefef;
+  border-radius: 6px;
+  border: none;
+  margin-left: 35px;
+  outline: none;
+}
+.inpBtn{
+  color: green;
+}
+.mdlText {
+  color: #000000;
+  margin-right: 230px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 35px;
+}
+.mdlText1 {
+  color: #000000;
+  margin-right: 190px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 35px;
+}
+.mdlText2 {
+  color: #000000;
+  margin-right: 230px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 35px;
+}
