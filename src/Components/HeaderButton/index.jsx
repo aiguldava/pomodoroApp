@@ -1,6 +1,6 @@
-export const Button = ({ title, icon }) => {
+export const Button = ({ title, icon, onclick }) => {
     return (
-        <button className='btnHead'>
+        <button className='btnHead' onClick={onclick}>
             <img className='btnImg' src={icon} alt=""/>
             {title}
         </button>

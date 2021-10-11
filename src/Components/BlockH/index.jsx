@@ -1,16 +1,20 @@
 import "../../assets/styles/block.css";
 import nextPage from "../../assets/icons/next.png";
+import { ButtonH } from "../BlockHButtons";
 
 const BlockH = () => {
   return (
-    <div className="header">
+    <div className="headerBlock">
       <div className="block">
         <div className="block1">
           <div className="block2">
             <div className="blockButtons">
-              <button className="btnP">Pomofocus</button>
-              <button className="btnP">Short Break</button>
-              <button className="btnP">Long Break</button>
+              <ButtonH title='Pomodoro' color='pomodoro' active='pomodoro'/>
+              <ButtonH title='Short Break' color='shortbreak'active='shortbreak'/>
+              <ButtonH title='Long Break' color='longbreak' active='longbreak'/>
+              {/* <button className="btnP">Pomofocus</button>
+              <button className="btnS">Short Break</button>
+              <button className="btnL">Long Break</button> */}
             </div>
             <div>
               <div className="clock">

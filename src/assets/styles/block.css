@@ -8,77 +8,49 @@
 .block2 {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px 0px 30px;
-  border-radius: 6px;
-  margin-bottom: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
   width: 100%;
 }
-.blockButtons {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-.btnP {
-  margin-left: 30px;
-  margin-top: 38px;
-  border: none;
-  border-radius: 5px;
-  background-color: #db524d;
-  font-size: 22px;
-  color: white;
-  font-family: Montserrat;
-  font-weight: bold;
-  line-height: 29px;
-}
-.btnP {
-  border: none;
-  color: white;
-  margin: 0px;
-  border-radius: 4px;
-  font-size: 16px;
-  padding: 2px 12px;
-  height: 28px;
-  cursor: pointer;
-  background: none;
-  box-shadow: none;
-  font-weight: 300;
-}
+
 .blockStart {
   position: relative;
   display: inline-block;
   width: 100%;
+  margin-bottom: 10px;
+
 }
 .time {
   text-align: center;
   margin-top: 30px;
-  font-size: 110px;
+  font-size: 130px;
   font-family: Montserrat;
   color: white;
   margin-bottom: 2px;
   line-height: 136px;
-  font-weight: 550;
+  font-weight: 700;
 }
 .start {
   cursor: pointer;
   border: none;
-  margin: 20px 0px 0px;
-  padding: 0px 12px;
+  margin: 10px 0px 0px;
+  padding: 0px 10px;
   border-radius: 4px;
   box-shadow: rgb(235 235 235) 0px 6px 0px;
-  font-size: 22px;
+  font-size: 35px;
   height: 55px;
   color: rgb(219, 82, 77);
   font-weight: bold;
-  width: 200px;
+  width: 150px;
   background-color: white;
   transition: color 0.5s ease-in-out 0s;
 }
-
 .next {
   width: calc((100% - 200px) / 2 + 5%);
   position: absolute;
-  right: 0px;
-  bottom: -6px;
-  height: 54px;
+  right: 5px;
+  bottom: 0px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,12 +60,52 @@
   user-select: none;
   background: none;
   border: none;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   align-items: center;
   justify-content: center;
-  bottom: 9px;
-  right: -50px;
   pointer-events: none;
   transition: all 0.2s ease-out 0s;
 }
+/* BLOCK H BUTTONS */
+
+.blockButtons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnP {
+  margin-left: 30px;
+  margin-top: 3px;
+  border: none;
+  border-radius: 5px;
+  background-color: #db524d;
+  font-size: 22px;
+  color: white;
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 29px;
+}
+#blockH {
+  border: none;
+  color: white;
+  margin: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  box-shadow: none;
+  font-weight: bold;
+  opacity: 1;
+}
+.container-pomodoro .pomodoro {
+  background: rgba(0, 0, 0, 0.15);
+}
+.container-shortbreak .shortbreak{
+  background: rgba(0, 0, 0, 0.15);
+}
+.container-longbreak .longbreak{
+  background: rgba(0, 0, 0, 0.15);
+}
+

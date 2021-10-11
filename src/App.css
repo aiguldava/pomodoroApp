@@ -1,9 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   margin: 0 auto;
 }
 body {
   font-family: "Montserrat", sans-serif;
+}
+.container-pomodoro {
   background: #db524d;
+}
+.container-shortbreak {
+  background: rgb(76, 145, 149);;
+}
+.container-longbreak {
+  background: rgb(69, 124, 163);;
+}
+button{
+  background: none;
 }

@@ -1,0 +1,64 @@
+.mdlTwo {
+  margin-top: 80px;
+  width: 485px;
+  height: 195px;
+  border: 1px solid;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.mdlP {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-left: 40px;
+  padding-top: 40px;
+}
+.mdlP2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-left: 40px;
+  padding-top: 2px;
+}
+.mdlTwoOk {
+  display: flex;
+  justify-content: right;
+  margin-right: 160px;
+  margin-top: 28px;
+}
+.btnMdlTwoOk {
+  width: 63px;
+  height: 37px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: #0085ff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.mdlTwoOtm {
+  display: flex;
+  justify-content: right;
+  margin-right: 40px;
+  margin-top: -37px;
+  
+}
+.btnMdlTwoOtm {
+  width: 110px;
+  height: 37px;  
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgb(209, 205, 205);
+  color: #0085ff;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 700;
+  
+}

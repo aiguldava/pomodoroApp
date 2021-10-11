@@ -2,6 +2,7 @@ import '../../assets/styles/header.css'
 import report from '../../assets/icons/Vector.svg'
 import setting from '../../assets/icons/settings.png'
 import { Button } from '../HeaderButton'
+import { Modal } from '../Modal'
 
 const Header = () => {
     return (
@@ -9,8 +10,9 @@ const Header = () => {
             <div className='header-child'>
                 <h1>Pomofocus</h1>
                 <div className='btnDiv'>
-                 <Button title='Setting' icon={report}></Button>
-                <Button title='Report' icon={setting}></Button>
+                 <Button title='Report' icon={report}></Button>
+                {/* <Button title='Report' icon={report}></Button> */}
+                <Modal/>
                 </div>          
             </div>      
             <div className='timer'>
@@ -20,4 +22,4 @@ const Header = () => {
         </div>
     )
 }
-export default Header
+export default Header;

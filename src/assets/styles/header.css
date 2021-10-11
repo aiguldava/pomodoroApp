@@ -2,7 +2,7 @@
   padding: 0px 12px;
   max-width: 620px;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 h1 {
   display: inline-block;
@@ -27,6 +27,7 @@ h1 {
 }
 .btnImg {
   width: 13px;
+  margin-top: 4px;
 }
 
 .btnHead {
@@ -40,18 +41,20 @@ h1 {
   font-weight: 500;
   font-size: 15px;
   border-radius: 4px;
+  margin-top: 10px;
 }
+
 .timer {
   width: 620px;
-  height: 3px;
+  height: 2px;
   border: 1px solid;
   border: none;
   background-color: rgba(223, 215, 215, 0.877);
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .secondT {
   width: 200px;
-  height: 3px;
+  height: 2px;
   border: 1px solid;
   border: none;
   background-color: #ffffff;
