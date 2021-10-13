@@ -1,15 +1,16 @@
 .block {
   text-align: center;
+  padding-bottom: 90px;
 }
 .block1 {
   max-width: 480px;
-  margin: auto;
+  margin: auto;  
 }
 .block2 {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px 0px 30px;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   width: 100%;
 }
 
@@ -18,7 +19,6 @@
   display: inline-block;
   width: 100%;
   margin-bottom: 10px;
-
 }
 .time {
   text-align: center;
@@ -102,10 +102,9 @@
 .container-pomodoro .pomodoro {
   background: rgba(0, 0, 0, 0.15);
 }
-.container-shortbreak .shortbreak{
+.container-shortbreak .shortbreak {
   background: rgba(0, 0, 0, 0.15);
 }
-.container-longbreak .longbreak{
+.container-longbreak .longbreak {
   background: rgba(0, 0, 0, 0.15);
 }
-

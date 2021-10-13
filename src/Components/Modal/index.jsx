@@ -23,21 +23,21 @@ export const Modal = () => {
               <div className="modalContent2">
                 <h3>TIMER SETTING</h3>
                 <hr />
-                <div className='modalContent3'>              
+                <div className="modalContent3">
                   <div className="mdlBlock">
-                  <span>Timer (minutes)</span>
+                    <span>Timer (minutes)</span>
                     <div className="mdlBlock1">
                       <div>
                         <div className="mdlBtn">Pomodoro</div>
-                        <input type="number" />
+                        <input type="number" defaultValue="25" min="0" />
                       </div>
                       <div>
                         <div className="mdlBtn">Short Break</div>
-                        <input type="number" />
+                        <input type="number" defaultValue="5" min="0" />
                       </div>
                       <div>
                         <div className="mdlBtn">Long Break</div>
-                        <input type="number" />
+                        <input type="number" defaultValue="15" min="0" />
                       </div>
                     </div>
                   </div>
@@ -59,7 +59,12 @@ export const Modal = () => {
                     <hr />
                     <div className="changeMdlText">
                       <p className="mdlText">Long Break interval</p>
-                      <input className="mdlInp" type="number" />
+                      <input
+                        className="mdlInp"
+                        type="number"
+                        defaultValue="4"
+                        min="1"
+                      />
                     </div>
                     <hr />
                   </div>

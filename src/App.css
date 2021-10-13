@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -11,13 +11,25 @@ body {
 }
 .container-pomodoro {
   background: #db524d;
+  transition: 0.5s ease-in-out 0s;
 }
 .container-shortbreak {
-  background: rgb(76, 145, 149);;
+  background: #468e91;
+  transition: 0.5s ease-in-out 0s;
 }
 .container-longbreak {
-  background: rgb(69, 124, 163);;
+  background: #437ea8;
+  transition: 0.5s ease-in-out 0s;
 }
-button{
+.container-pomodoro .start-color {
+  color: #db524d;
+}
+.container-shortbreak .start-color {
+  color: #468e91;
+}
+.container-longbreak .start-color {
+  color: #437ea8;
+}
+button {
   background: none;
 }

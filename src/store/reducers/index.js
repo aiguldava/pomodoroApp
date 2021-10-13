@@ -2,6 +2,7 @@ import { CHANGE_BACKGROUND } from "../actionTypes";
 
 const initialState = {
   changeBackground: "pomodoro",
+  time: { pomodoro: 25, shortbreak: 5, longbreak: 15 },
 };
 
 const PomodoroApp = (state = initialState, action) => {
@@ -15,4 +16,4 @@ const PomodoroApp = (state = initialState, action) => {
       return state;
   }
 };
-export default PomodoroApp
+export default PomodoroApp;

@@ -1,0 +1,132 @@
+.dava{
+  margin: auto ;
+  max-width: 1300px;
+}
+.pomFooter {
+  width: 1349px;
+  height: 1900px;
+}
+.footerP1 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+.footer h5 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+hr {
+  width: 90px;
+  height: 0px;
+  border: 2px solid #e49c99;
+  background-color: #e49c99;
+  margin-left: 400px;
+  margin-top: 15px;
+}
+.footerP2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.footerP3 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+.footerP4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.footerP5 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+ol {
+  margin-top: 30px;
+}
+li {
+  padding: 10px 0 15px 5px;
+  margin-left: 420px;
+}
+.footerP6 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 39px;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+ul {
+  margin-top: 30px;
+  border-radius: 50%;
+  color: red;
+  }
+  span{
+    color: black;
+  }
+.footerP7 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 39px;
+  color: #000000;
+  margin-top: 40px;
+  margin-left: 400px;
+}
+.footerDiv {
+  margin-top: 80px;
+  width: 1349px;
+  border: 1px solid #e6e6e6;
+}
+.footerLink {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  width: 500px;
+  margin-left: 500px;
+  font-weight: 300;
+  color: black;
+  cursor: pointer;
+}
+.footerP8 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 650px;
+  margin-top: 80px;
+}
+.footerP9 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 600px;
+  margin-top: 40px;
+}
