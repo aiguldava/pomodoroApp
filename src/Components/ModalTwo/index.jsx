@@ -11,7 +11,11 @@ export const ModalTwo = ({ onclose }) => {
           The timer is still running, are you sure you want to switch?
         </p>
         <div className="mdlTwoOk">
-          <button className="btnMdlTwoOk"> OK </button>
+          <button onClick={onclose} className="btnMdlTwoOk">
+            {/* {" "}  */}
+            OK
+             {/* {" "} */}
+            </button>
         </div>
         <div className="mdlTwoOtm">
           <button onClick={onclose} className="btnMdlTwoOtm">

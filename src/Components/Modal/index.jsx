@@ -71,7 +71,10 @@ export const Modal = () => {
                 </div>
               </div>
               <div className="mdlOk">
-                <button className="btnOk"> OK </button>
+                <button className="btnOk" onClick={toggleModal}>
+                  {" "}
+                  OK{" "}
+                </button>
               </div>
             </div>
           </div>
