@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pomodoroApp/static/css/main.b3da5d93.chunk.css",
+    "main.js": "/pomodoroApp/static/js/main.06d0f001.chunk.js",
+    "main.js.map": "/pomodoroApp/static/js/main.06d0f001.chunk.js.map",
+    "runtime-main.js": "/pomodoroApp/static/js/runtime-main.25d26d6c.js",
+    "runtime-main.js.map": "/pomodoroApp/static/js/runtime-main.25d26d6c.js.map",
+    "static/js/2.b88808d6.chunk.js": "/pomodoroApp/static/js/2.b88808d6.chunk.js",
+    "static/js/2.b88808d6.chunk.js.map": "/pomodoroApp/static/js/2.b88808d6.chunk.js.map",
+    "index.html": "/pomodoroApp/index.html",
+    "static/css/main.b3da5d93.chunk.css.map": "/pomodoroApp/static/css/main.b3da5d93.chunk.css.map",
+    "static/js/2.b88808d6.chunk.js.LICENSE.txt": "/pomodoroApp/static/js/2.b88808d6.chunk.js.LICENSE.txt",
+    "static/media/Switch (1).2db7fa84.svg": "/pomodoroApp/static/media/Switch (1).2db7fa84.svg",
+    "static/media/Switch.f9357b73.svg": "/pomodoroApp/static/media/Switch.f9357b73.svg",
+    "static/media/Vector.bbcd0fc8.svg": "/pomodoroApp/static/media/Vector.bbcd0fc8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25d26d6c.js",
+    "static/js/2.b88808d6.chunk.js",
+    "static/css/main.b3da5d93.chunk.css",
+    "static/js/main.06d0f001.chunk.js"
+  ]
+}
